@@ -8,7 +8,7 @@ export CROSS_COMPILE=/home/mark/Kernels/tool-chains/arm-cortex-linux-gnueabi-lin
 
 #MAKE DEFCONFIG
 make  msm8916_sec_defconfig VARIANT_DEFCONFIG=msm8916_sec_gt510lte_eur_defconfig SELINUX_DEFCONFIG=selinux_defconfig
-cp $(pwd)/arch/arm/configs/ashyx_gt510lte_defconfig $(pwd)/.config
+cp $(pwd)/arch/arm/configs/ashyx_gts510lte_defconfig $(pwd)/.config
 
 #MAKE MENU CONFIG(REMOVE # TO ENABLE)
 #make nconfig
