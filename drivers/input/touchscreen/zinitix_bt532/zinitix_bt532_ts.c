@@ -40,7 +40,8 @@
 #include <linux/uaccess.h>
 #include <linux/regulator/consumer.h>
 
-#include <zinitix_bt532_ts.h>
+#include "zinitix_bt532_ts.h"
+
 #include <linux/input/mt.h>
 #include <linux/regulator/machine.h>
 #include <linux/of_device.h>
